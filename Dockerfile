@@ -1,6 +1,6 @@
 FROM tomcat:8.0
 
-COPY target-sample-svc-1.0.war /usr/local/tomcat/webapps/
+COPY target/sample-svc-1.0.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
