@@ -1,4 +1,4 @@
-FROM tomcat:8.0
+FROM tomcat:8.5.81
 
 COPY target/sample-svc-1.0.war /usr/local/tomcat/webapps/
 
